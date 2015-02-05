@@ -1,0 +1,49 @@
+#10.9 mavericks
+echo $PATH
+
+
+#install xcode from app store
+#or
+#install xcode command line tools
+
+#install jre
+
+#install python
+python --version
+# 2.7.6
+which python
+
+#install homebrew
+
+
+
+#install git
+brew install git
+brew update
+
+#doesnt work I think
+#brew remove libgtextutils fastx_toolkit
+#brew install libgtextutils fastx_toolkit --cc=llvm-gcc
+
+#brew tap homebrew/versions
+#brew options gcc48
+#brew install [flags] gcc48
+
+#http://hollybik.wordpress.com/2013/08/16/installing-fastx-toolkit/
+#install libgtexutils (dependency for fastx)
+curl -O http://hannonlab.cshl.edu/fastx_toolkit/libgtextutils-0.6.tar.bz2
+tar xvjf libgtextutils-0.6.tar.bz2
+cd libgtextutils-0.6
+./configure
+make
+sudo make install
+
+#install fastx
+curl -O http://hannonlab.cshl.edu/fastx_toolkit/fastx_toolkit-0.0.13.tar.bz2
+tar xjvf fastx_toolkit-0.0.13.tar.bz2
+cd fastx_toolkit-0.0.13
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+./configure
+make
+sudo make install
+
