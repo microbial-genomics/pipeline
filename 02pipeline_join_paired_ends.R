@@ -54,3 +54,4 @@ for(i in seq(1,nfiles,2)){
 #from QIIME or fastq_to_fasta from FASTX tool (Make sure have –Q33 in the command when fastq_to_fasta is used). 
 fastq.paired.dir
 "paired_out_SFBR-Rain-Event-500-S1-L001_R1_001"
+
