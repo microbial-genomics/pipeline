@@ -27,3 +27,4 @@ fastq.trim.commands
 for(command in fastq.trim.commands){
   system(command)
 }
+
