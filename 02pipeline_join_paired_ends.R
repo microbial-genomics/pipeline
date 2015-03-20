@@ -6,6 +6,7 @@
 #directories
 fastq.filtered.dir
 fastq.paired.dir
+fastq.paired.write <- paste(fastq.paired.dir,"SFBR_joined",sep="")
 fastq.scripts.dir <- paste(pipeline.dir,"SFBR_Scripts/",sep="")
   
 #pipeline.fastq.out.dir #*Data_out now filtered
@@ -18,7 +19,7 @@ fastq.scripts.wpath
 #file names
 fastq.files.filtered.wpath
 fastq.files.paired.wpath <- paste(fastq.paired.dir, paste("paired_",fastq.files.unfiltered,sep=""),sep="") 
-
+#paired.fastq.to.fasta.wpath <- paste("fasta_",
 #fastq.files.filtered
 #fastq.outfiles <- paste(fastq.filtered.dir,list.files(fastq.filtered.dir),sep="")
 #fastq.outfiles.names <- sub(".fastq","",list.files(fastq.filtered.dir))
@@ -47,11 +48,41 @@ for(i in seq(1,nfiles,2)){
   #change name of output
 }
 
+#paired output
+joined_files_to_copy <- paste(fastq.files.paired.wpath,"/fastqjoin.join.fastq",sep="")[seq(1,10,by=2)]
+joinedfiles <- paste("/fastq",500:504,sep="")
+joined_files_copied <- paste(fastq.paired.write,joinedfiles,sep="")
+file.copy(joined_files_to_copy, joined_files_copied)
+
 #Look for the fastjoin.join.fastq in the output_file folder, it is the joined fastq file. 
-#Rename the file name to be more descriptive. 
+#Rename the file name to be more descriptive.
+#Need to go into each paired_sample# directory and rename the fastjoin.join.fastq to append the sample name to it
+#file names to convert to fasta (I manually renamed these and copied them into the /SFBR_joined directory for now)
+fastq.paired.join.dir <- paste(fastq.paired.dir,"SFBR_joined",sep="")
+file.exists(fastq.paired.join.dir)
+fastq.files.joined <- list.files(fastq.paired.join.dir)
+fastq.files.joined
+nfiles2 <- length(fastq.files.joined)
+#Directory to save converted files
+fastq.convert.fasta.dir <- paste(pipeline.dir,"SFBR_paired_fastq_to_fasta/",sep="")
+file.exists(fastq.convert.fasta.dir)
+#paste(fastq.convert.fasta.dir,)
 
-#To prepare primer/barcode filtering, convert joined fastq file to fasta file using convert_fastaqual_fastq.py 
-#from QIIME or fastq_to_fasta from FASTX tool (Make sure have –Q33 in the command when fastq_to_fasta is used). 
-fastq.paired.dir
-"paired_out_SFBR-Rain-Event-500-S1-L001_R1_001"
 
+
+#file commands to be run
+fastq.to.fasta.command <- paste(qpy,py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
+                                                 " -o ", fastq.convert.fasta.dir, sep="")
+
+for(command in fastq.to.fasta.command){
+  system(command)
+}
+
+#command I used to convert the git/pipeline/sample500 to a fastaqual file
+#and save it in a new directory called "fastaqual" 
+#from the git/pipeline directory I ran
+#convert_fastaqual_fastq.py -c fastq_to_fastaqual -f 
+#SFBR_Data_paired/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq/fastqjoin.join.fastq 
+#-o /Users/KenBradshaw/git/pipeline/SFBR_Data_paired/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq/fastaqual
+#and created a fastaqual directory containing the converted files within the 
+#/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq directory
