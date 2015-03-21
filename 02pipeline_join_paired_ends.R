@@ -8,6 +8,7 @@ fastq.filtered.dir
 fastq.paired.dir
 fastq.paired.write <- paste(fastq.paired.dir,"SFBR_joined",sep="")
 fastq.scripts.dir <- paste(pipeline.dir,"SFBR_Scripts/",sep="")
+fastq.convert.fasta.dir <- paste(pipeline.dir,"SFBR_paired_fastq_to_fasta/",sep="")
   
 #pipeline.fastq.out.dir #*Data_out now filtered
 
@@ -50,7 +51,7 @@ for(i in seq(1,nfiles,2)){
 
 #paired output
 joined_files_to_copy <- paste(fastq.files.paired.wpath,"/fastqjoin.join.fastq",sep="")[seq(1,10,by=2)]
-joinedfiles <- paste("/fastq",500:504,sep="")
+joinedfiles <- paste("/fastq",500:504,sep="") #insert sample numbers here manually for now
 joined_files_copied <- paste(fastq.paired.write,joinedfiles,sep="")
 file.copy(joined_files_to_copy, joined_files_copied)
 
@@ -62,27 +63,11 @@ fastq.paired.join.dir <- paste(fastq.paired.dir,"SFBR_joined",sep="")
 file.exists(fastq.paired.join.dir)
 fastq.files.joined <- list.files(fastq.paired.join.dir)
 fastq.files.joined
-nfiles2 <- length(fastq.files.joined)
-#Directory to save converted files
-fastq.convert.fasta.dir <- paste(pipeline.dir,"SFBR_paired_fastq_to_fasta/",sep="")
-file.exists(fastq.convert.fasta.dir)
-#paste(fastq.convert.fasta.dir,)
 
-
-
-#file commands to be run
+#file commands to be run to convert fastq to fasta
 fastq.to.fasta.command <- paste(qpy,py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
                                                  " -o ", fastq.convert.fasta.dir, sep="")
 
 for(command in fastq.to.fasta.command){
   system(command)
 }
-
-#command I used to convert the git/pipeline/sample500 to a fastaqual file
-#and save it in a new directory called "fastaqual" 
-#from the git/pipeline directory I ran
-#convert_fastaqual_fastq.py -c fastq_to_fastaqual -f 
-#SFBR_Data_paired/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq/fastqjoin.join.fastq 
-#-o /Users/KenBradshaw/git/pipeline/SFBR_Data_paired/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq/fastaqual
-#and created a fastaqual directory containing the converted files within the 
-#/paired_SFBR-Rain-Event-500_S1_L001_R1_001.fastq directory

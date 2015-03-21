@@ -33,7 +33,16 @@ if(Sys.info()[4]=="kens-air"){
   fastq_join.dir <- "/macqiime/bin/fastq-join"
   qiime.dir <- path.expand("~/Documents/qiime/MacQIIME_1.8.0-20140103_OS10.6/macqiime/QIIME/bin/")
   py_join <- "/macqiime/QIIME/bin/"
-  seq_filter.dir <- ""
+  seq_filter.dir <- "/Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/"
+  #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
+}
+if(Sys.info()[4]=="Kens-MacBook-Air.local"){
+  pipeline.dir<-path.expand("~/git/pipeline/")
+  fastq.dir <- "/usr/local/Cellar/fastx_toolkit/0.0.14/bin/"
+  fastq_join.dir <- "/macqiime/bin/fastq-join"
+  qiime.dir <- path.expand("~/Documents/qiime/MacQIIME_1.8.0-20140103_OS10.6/macqiime/QIIME/bin/")
+  py_join <- "/macqiime/QIIME/bin/"
+  seq_filter.dir <- "/Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/"
   #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
 }
 if(Sys.info()[4]=="blakes-mbp"){
