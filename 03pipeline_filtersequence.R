@@ -6,7 +6,6 @@ pipeline.dir
 fastq.convert.fasta.dir
 fasta.files <-paste(fastq.convert.fasta.dir,list.files(fastq.convert.fasta.dir,pattern="fna"),sep="")
 filtered.dir <- paste(pipeline.dir,"SFBR_SeqFiltered/",paste(list.files(fastq.convert.fasta.dir,pattern="fna"),sep=""),sep="")
-#fasta.files.in <- paste(fastq.convert.fasta.dir,fasta.files,sep="")
 seq_filter.dir
 
 #D. Filter out the primer/barcode sequence
@@ -16,8 +15,7 @@ seq_filter.dir
 #File command
 
 seqfilter.command <- paste("java -jar ",seq_filter.dir, "SeqFilters.jar", " --forward-primers CAGCMGCCGCGGTAATWC --max-forward 2 --reverse-primers CCGTCAATTCCTTTRAGGTT --max-reverse 1 --seq-file ", fasta.files,
-                                " -o ", filtered.dir, sep="")
-
+                                " -o ", filtered.dir, sep="")                          
 for(command in seqfilter.command){
   system(command)
 }

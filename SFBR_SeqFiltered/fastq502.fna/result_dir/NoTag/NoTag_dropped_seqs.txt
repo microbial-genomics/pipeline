@@ -1,0 +1,497 @@
+Sequence Id	Filter Name	Reason for Filtering
+M02849:22:000000000-A97TD:1:2115:23330:15120	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:3199:10565	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:28814:14629	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:8146:14602	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:13462:5684	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:15299:4029	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:13322:13995	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:9237:18869	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2102:15804:5364	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:24950:7127	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:20179:16725	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1115:19219:9003	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:3919:17924	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:19239:14966	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:15218:4943	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:16961:5451	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:24180:16542	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:13300:9099	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:23227:14460	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:23828:17234	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:6153:13743	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:10818:18296	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:28988:9771	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:3639:12144	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:3863:11567	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:10563:12935	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:18363:13288	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:3628:14225	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:17785:7757	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:20272:20755	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:23715:17832	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:18416:11273	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:14976:10009	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:3829:18165	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:18722:3999	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:5549:20657	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:7683:4674	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:10110:4801	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:11366:21042	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:11937:13433	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:10113:20688	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:25945:7411	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:4029:9718	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:22503:22094	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:4578:14903	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1116:4729:7949	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:15198:17139	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:10718:13072	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:22535:9714	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:3560:19386	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:5513:12409	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:26338:16714	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:4767:16254	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:10497:12144	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:28560:11398	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:12964:16916	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:22295:10365	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:23637:3471	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:6655:22851	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:15095:23054	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:9110:11739	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1115:3550:6287	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:8756:19330	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:3798:19073	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:25002:7493	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:7903:11861	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:15863:17321	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:16452:23589	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:8244:2370	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:25148:3477	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:23445:2878	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:9364:8051	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:11289:14119	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:21478:19943	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1102:14486:20800	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:13316:2820	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:24139:13592	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:5079:6953	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:3880:7864	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:8730:18012	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:13450:17246	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:12281:18054	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:6449:8691	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:10161:7590	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:17619:16863	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:5890:5198	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:6997:15957	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:8845:13650	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:10367:3004	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:25008:13683	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:3082:11893	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1114:11107:19725	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:14767:14644	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:22397:5443	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:19280:11792	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:7171:13584	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:22376:12176	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:4439:17559	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:13916:19471	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:27060:10883	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:19943:14384	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:20743:16928	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:4736:16304	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:16113:11177	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:7071:9400	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:16906:19918	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:13321:9614	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:25315:13184	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:6743:9435	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:25213:16587	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:9585:8458	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:21754:13373	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:11269:9006	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:8827:2697	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:8966:20829	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:20913:17166	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:20685:1860	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:23632:13344	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:28650:12635	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:19684:6705	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:13758:16095	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:6232:22556	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:27208:13529	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:21917:3627	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:5648:21752	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:25798:15569	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:5999:15378	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:9819:18516	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2115:28798:15894	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1115:14375:7486	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:18726:15166	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2116:19794:23067	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1104:25954:6130	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:3854:15555	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:15751:6741	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:4847:21401	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1114:7195:3451	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:5181:9634	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:20376:23152	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1113:9434:15091	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:5076:21717	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:3775:17365	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1119:5479:19889	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:24662:9865	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:23812:9463	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:9916:24843	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2104:18536:8831	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:2119:9863:11394	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1103:12223:7690	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:19945:6373	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:15862:5699	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:4874:5928	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:2889:14640	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1118:11302:4341	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:27338:14869	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:17464:20317	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:5406:6056	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:16237:22918	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:10646:17768	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:21822:24809	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:15530:8878	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:3884:5825	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:22767:10636	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:13757:4584	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:9827:21305	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1110:20044:22310	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:16449:10455	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:2665:18103	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:6648:8420	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:9947:16308	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:20845:11639	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:17191:19760	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:14414:11443	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:20971:12388	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:12791:19511	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:26296:19908	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:3139:13705	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:25348:5876	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:14537:20760	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:17823:5969	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:5439:11922	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2102:20211:5578	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:13979:4643	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:23145:15266	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:8142:4924	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:15207:11975	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:14681:13909	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:15946:16257	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:28752:12160	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:23743:6126	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:14590:7999	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1116:4267:19798	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:15654:8846	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:15846:10171	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:22307:15935	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:15489:6038	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:15515:2604	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:22910:9792	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:7595:15998	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:10411:19336	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:11512:2007	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:7087:6862	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:19550:18456	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:11965:20677	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:21369:7764	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:11104:17317	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:5510:19402	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:19811:5625	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 2
+M02849:22:000000000-A97TD:1:2115:5523:9654	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:6880:15743	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:11725:19863	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:21189:15205	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:13318:9571	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:20981:14112	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:15924:4219	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:15925:7172	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:7972:9405	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:6118:14875	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:6768:20393	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:13660:13231	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:14505:5187	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:8905:21614	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:11915:11009	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:18517:4923	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:16023:23382	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:24574:20765	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:11847:15209	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:5444:8016	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:4059:9279	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:27180:8751	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:19405:7248	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:17583:18749	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:12186:2695	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:23925:12056	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:14193:18662	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:13252:19271	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:26163:12353	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:4965:7701	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:20592:19956	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:25659:12591	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:14001:3432	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:11482:6679	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:11998:18731	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:15074:17240	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:11524:8687	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:21355:3671	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:13454:8020	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2109:4055:19060	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:5534:11327	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:21234:18371	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:26173:10683	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:20944:10562	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1104:23226:5415	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:28394:14978	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:23536:22472	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1108:17971:10222	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:15872:18616	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:13902:13959	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1112:20794:10038	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:7457:7246	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:11094:9981	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:5304:4425	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:4490:20009	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:13684:20421	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:7133:15402	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:10402:22440	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:13550:20876	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:12990:7540	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:15122:3057	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:6125:11113	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:13870:12345	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:7844:14641	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:17702:18735	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:4025:15741	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:10944:4990	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:3924:13589	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:15396:16914	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:19616:7715	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:19746:4548	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:22418:5131	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:22323:7985	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:27382:10792	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:23263:9751	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1103:19618:21011	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:22334:3365	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1111:17786:3311	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:17508:11161	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:9397:8450	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:4980:18068	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:13951:13670	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:13513:13956	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1114:7450:17143	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2119:4864:21445	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 6
+M02849:22:000000000-A97TD:1:1109:6033:9026	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:20698:19932	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:6057:13407	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:23414:9842	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:15175:6670	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:9875:16681	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1101:2206:12123	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:24279:13672	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:23743:8166	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:19931:7740	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:24136:19435	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:25046:17191	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:16985:19952	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:19460:12997	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:2559:9854	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:6940:6143	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:14555:4109	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1114:18475:20679	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:13267:23358	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:14386:3330	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1119:12816:6629	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:27073:19867	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:18407:12276	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:21387:16817	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:15309:16541	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:11099:5625	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:15903:24742	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:4502:6949	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2107:16648:10946	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:7293:13280	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:20174:9842	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:26128:14774	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:10497:23973	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:6560:15541	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:10893:17614	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:13330:25005	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1106:8365:13399	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:24403:16940	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:2114:25450:12365	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:15813:11037	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:6096:15608	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:5056:7152	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:26360:10861	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:13523:19703	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 6
+M02849:22:000000000-A97TD:1:1115:26646:7529	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:23479:5610	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:13685:15612	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1112:10493:13231	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:22664:3426	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:19165:8383	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:10476:23550	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:5097:20802	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:11885:6845	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2117:17177:20105	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:21580:4976	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:22597:16756	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:6488:14478	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:28779:11553	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:7335:23747	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:15526:4139	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:20654:11684	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2102:19195:8599	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:2103:18943:7120	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:13951:20397	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:11212:11538	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:21118:12087	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:22926:19156	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:9560:14424	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2111:15088:2650	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:17050:20903	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:19150:16098	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:26474:14399	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:9420:16064	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:11750:13060	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:19018:14629	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:14074:24110	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:24311:16383	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:19850:7273	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:8740:10518	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1109:24275:17677	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:18783:7476	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:16945:9284	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:14681:23906	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:10538:18480	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:19338:6334	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:5180:15048	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2107:10349:11958	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:8815:22088	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:23632:21045	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:14752:13094	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:3768:15881	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:4360:17739	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1118:21045:3118	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:18217:9663	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:6933:2748	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1103:3968:20008	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:22067:8534	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:14007:3324	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:9015:14149	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:18818:22249	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:11279:11227	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2107:10532:17496	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:7284:3336	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1101:12300:5591	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:8256:18678	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:23135:12267	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1110:13072:2869	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1117:9516:3037	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:4597:12257	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:16043:22955	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:28459:18562	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:9468:19502	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:24957:21646	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:12648:13862	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:26636:16132	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:6081:7687	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:23169:14645	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:14568:23591	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:15191:21631	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:14568:15889	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2119:16772:9525	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:16865:8491	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:14926:9582	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:11884:18905	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:10370:13265	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1111:21145:20156	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:8474:8715	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2104:16229:8928	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:10272:7900	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:11940:16954	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:10563:7142	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:10088:13259	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:22917:13526	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:14887:9858	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:19868:11324	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1109:18155:8756	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1112:15794:22157	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:11475:12412	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:4741:5278	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 6
+M02849:22:000000000-A97TD:1:1113:16137:18526	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:15650:4838	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:18179:15326	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:8445:2112	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:20657:11538	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:5807:15422	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:5591:14184	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:18530:8641	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:18856:11077	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:28641:11881	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1102:5945:5815	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:19114:9242	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:3891:7132	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2103:4698:5070	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:18914:24159	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:9491:20861	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1104:16990:13945	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:22067:15918	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2118:15971:19552	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:28359:16613	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:12828:16717	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:11286:17506	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1116:25157:15805	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2111:14779:2352	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1108:9661:22799	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2116:22873:20193	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:12607:11353	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:7062:15467	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:26618:9979	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:7485:10971	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1105:13195:5394	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2112:11498:15957	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 5
+M02849:22:000000000-A97TD:1:1104:15974:6694	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:13420:5731	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1107:15738:11790	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2109:3951:7167	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:22985:10923	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:26624:5512	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2106:9636:20383	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2117:23053:14135	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2115:8979:21007	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2101:7948:17919	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1112:15865:10496	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:1108:14624:23003	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:24141:7277	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1114:21898:4913	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2103:5101:11788	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1119:7785:2674	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1104:23303:16793	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1105:6714:9649	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:27803:8824	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1103:10563:12996	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:2012:12791	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2105:6749:16939	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
+M02849:22:000000000-A97TD:1:2116:23587:19380	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:5386:11128	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:15846:23968	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1106:14795:14030	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2110:18365:4103	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:1113:27289:14284	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2114:24532:9543	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2108:14944:17897	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1109:16482:17034	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
+M02849:22:000000000-A97TD:1:2113:24221:16825	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1

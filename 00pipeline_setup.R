@@ -35,6 +35,8 @@ if(Sys.info()[4]=="kens-air"){
   py_join <- "/macqiime/QIIME/bin/"
   seq_filter.dir <- "/Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/"
   #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
+  headspace_remove.dir <- "/Users/KenBradshaw/git/pipeline"
+  usearch.dir <- "/Users/KenBradshaw/git/pipeline/"
 }
 if(Sys.info()[4]=="Kens-MacBook-Air.local"){
   pipeline.dir<-path.expand("~/git/pipeline/")
@@ -44,6 +46,8 @@ if(Sys.info()[4]=="Kens-MacBook-Air.local"){
   py_join <- "/macqiime/QIIME/bin/"
   seq_filter.dir <- "/Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/"
   #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
+  headspace_remove.dir <- "/Users/KenBradshaw/git/pipeline"
+  usearch.dir <- "/Users/KenBradshaw/git/pipeline/"
 }
 if(Sys.info()[4]=="blakes-mbp"){
   pipeline.dir<-path.expand("~/Dropbox/pipeline/")

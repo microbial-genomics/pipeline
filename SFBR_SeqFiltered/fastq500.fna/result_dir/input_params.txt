@@ -1,0 +1,13 @@
+Input file: fastq500.fnaQuality file: (None)
+Gene name: RRNA_16S_BACTERIA
+Maximum number of Ns: 0
+Minimum sequence length: 0
+Minimum exponential Q-score: 20
+Primers removed?: true
+Process no tag?: true
+Forward primer(s): CAGCMGCCGCGGTAATWC
+Max forward primer distance: 2
+Forward primer(s): CAGCMGCCGCGGTAATWC
+Max forward primer distance: 2
+Reverse primer(s): CCGTCAATTCCTTTRAGGTT
+Max reverse primer distance: 1

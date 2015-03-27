@@ -71,3 +71,4 @@ fastq.to.fasta.command <- paste(qpy,py_join,"convert_fastaqual_fastq.py -c fastq
 for(command in fastq.to.fasta.command){
   system(command)
 }
+
