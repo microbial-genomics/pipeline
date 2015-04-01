@@ -39,6 +39,7 @@ if(Sys.info()[4]=="kens-air"){
   #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
   headspace_remove.dir <- "/Users/KenBradshaw/git/pipeline"
   usearch.dir <- "/Users/KenBradshaw/git/pipeline/"
+  map.dir <- "/Users/KenBradshaw/git/pipeline/SFBR_mapping_files/"
 }
 if(Sys.info()[4]=="Kens-MacBook-Air.local"){
   pipeline.dir<-path.expand("~/git/pipeline/")
@@ -50,6 +51,7 @@ if(Sys.info()[4]=="Kens-MacBook-Air.local"){
   #occfigs<-path.expand("~/Dropbox/occupancy_revisions/figures/")
   headspace_remove.dir <- "/Users/KenBradshaw/git/pipeline"
   usearch.dir <- "/Users/KenBradshaw/git/pipeline/"
+  map.dir <- "/Users/KenBradshaw/git/pipeline/SFBR_mapping_files/"
 }
 if(Sys.info()[4]=="blakes-mbp"){
   pipeline.dir<-path.expand("~/Dropbox/pipeline/")

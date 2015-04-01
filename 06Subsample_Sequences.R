@@ -29,27 +29,15 @@ for (i in 1:n){
 seq_count
 min_seq<-min(seq_count)
 min_seq
+i=1
 for (j in 1:n){
   current_file <- no_chimera_files_wpath[j]
   current_file_name <- file_names[j]
   file_list[[j]]<-readDNAStringSet(current_file,"fasta") 
   for (k in 1:n){
     fas.subset[[k]] <- file_list[[j]][sample(length(file_list[[j]]), min_seq)]
-    fas.subset.out[[k]] <- writeFasta(fas.subset[[k]],paste(subsamp.dir,
-                                                            current_file_name,"sub.fasta",
-                                                            sep=""))
+    fas.subset.out <- writeFasta(fas.subset[[k]],paste(subsamp.dir, current_file_name,"sub.fasta", sep=""))
   }
-}
-
-
-
-#File Command:  Count Sequences in the subsampled data to be sure they are equal
-#counts each individual file:  count_seqs.command <- paste(qpy,py_join,"count_seqs.py"," -i ",rmchimera.dir,"/",no_chimera_files," -o ",rmchimera.dir,"/",no_chimera_files,".seq_counts.txt",sep="")
-count_seqs.command <- paste(qpy,py_join,"count_seqs.py"," -i ", '"',subsamp.dir, "*.fasta",'"', " -o ",
-                            subsamp.dir,"sub_seq_counts.txt",sep="")
-
-for(command in count_seqs.command){
-  system(command)
 }
 
 
