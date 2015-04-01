@@ -7,8 +7,8 @@ list.files(SFBR_notag.write.dir)
 modified.write.dir <- paste(pipeline.dir,"SFBR_modified_headspace/",sep = "")
 file.exists(modified.write.dir)
 list.files(modified.write.dir)
-rmchimera.dir <- paste(pipeline.dir,"SFBR_no_chimeras",sep ="")
-rmchimerafiles <- paste("/rm_chimera_",500:504,".fasta",sep = "")
+rmchimera.dir <- paste(pipeline.dir,"SFBR_no_chimeras/",sep ="")
+rmchimerafiles <- paste("rm_chimera_",500:504,".fasta",sep = "")
 rmchimerawithpath <- paste(rmchimera.dir,rmchimerafiles,sep = "")
 
 
@@ -23,12 +23,11 @@ remove_chimera.command <- paste(usearch.dir,"usearch8.0.1517_i86osx32"," --uchim
 for(command in remove_chimera.command){
   system(command)
 }
-> # F.  Optional: random subsample reads using in-house JAVA program or QIIME
-  > 
-  > # H.	Make mapping file
-  > # I.	Build OTU table using QIIME
-  > # J.	Summarize taxonomy using QIIME
-  > # K.	Alpha analysis using QIIME
-  > # L.	Beta analysis using QIIME
-  > # M.	NMDS analysis using R
-  > # N.	Heatmap generation using R
+# F.  Optional: random subsample reads using in-house JAVA program or QIIME
+# H.	Make mapping file
+# I.	Build OTU table using QIIME
+# J.	Summarize taxonomy using QIIME
+# K.	Alpha analysis using QIIME
+# L.	Beta analysis using QIIME
+# M.	NMDS analysis using R
+# N.	Heatmap generation using R

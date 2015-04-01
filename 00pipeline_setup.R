@@ -2,6 +2,8 @@ Sys.info()
 R.Version()
 
 library(rPython)
+library("ShortRead")
+library("Biostrings")
 
 #git clone QIIME in terminal with
 #git clone git://github.com/qiime/qiime.git Qiime

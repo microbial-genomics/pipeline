@@ -1,0 +1,7 @@
+
+11467  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/rm_chimera_501.fastasub.fasta (Sequence lengths (mean +/- std): 369.3108 +/- 4.4419)
+11467  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/rm_chimera_503.fastasub.fasta (Sequence lengths (mean +/- std): 369.3779 +/- 3.8388)
+11467  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/rm_chimera_500.fastasub.fasta (Sequence lengths (mean +/- std): 369.4480 +/- 2.9943)
+11467  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/rm_chimera_504.fastasub.fasta (Sequence lengths (mean +/- std): 369.5011 +/- 3.3998)
+11467  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/rm_chimera_502.fastasub.fasta (Sequence lengths (mean +/- std): 369.5248 +/- 5.4962)
+57335  : Total
