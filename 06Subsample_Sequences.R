@@ -3,7 +3,11 @@
 rmchimera.dir
 no_chimera_files <- list.files(rmchimera.dir)
 subsamp.dir<-paste(pipeline.dir,"SFBR_no_chimeras_subsampled/",sep="")
-subsamp_files<-list.files(subsamp.dir)
+
+subsamp_files<-list.files(subsamp.dir,pattern=".fasta")
+subsamp_files_wpath<-paste(subsamp.dir,subsamp_files,sep="")
+subsamp_files_seqs.dir<-paste(subsamp.dir,"SFBR_subsampled_wseqs/",sep="")
+
 pipeline.dir
 qiime.dir
 qpy
@@ -28,18 +32,22 @@ for (i in 1:n){
 }  
 seq_count
 min_seq<-min(seq_count)
-min_seq
+
+m <- min_seq
+
 i=1
+j=1
+k=1
 for (j in 1:n){
   current_file <- no_chimera_files_wpath[j]
   current_file_name <- file_names[j]
-  file_list[[j]]<-readDNAStringSet(current_file,"fasta") 
+  file_list[[j]]<-readDNAStringSet(current_file,"fasta")
   for (k in 1:n){
-    fas.subset[[k]] <- file_list[[j]][sample(length(file_list[[j]]), min_seq)]
+    fas.subset[[k]] <- file_list[[j]][sample(length(file_list[[j]]),m)]
+
     fas.subset.out <- writeFasta(fas.subset[[k]],paste(subsamp.dir, current_file_name,"sub.fasta", sep=""))
   }
 }
-
 
 
 #File Command:  Count Sequences in the subsampled data to be sure they are equal
@@ -52,9 +60,28 @@ for(command in count_seqs.command){
 }
 
 
+seqnames <-as.character(seq(1,m,1))
+samples_m<-matrix(500:504)
+samples<-as.list(samples_m)
+samples <- as.character(list(500,501,502,503,504)) #Manually create a list of samples names maybe we can automate this at some point
+newname<- list()
+z=length(subsamp_files_wpath)
+p=1
+for (p in 1:z){
+  current_file<-subsamp_files_wpath[p]
+  current_file_name<-file_names[p]
+  file_list[[p]]<-readDNAStringSet(current_file,"fasta")
+  newname[[p]] <- paste(samples[[p]],"_",seqnames,sep="") 
+  file_list[[p]]@ranges@NAMES <- newname[[p]]
+  out <- writeFasta(file_list[[p]],paste(subsamp_files_seqs.dir, 
+                                         current_file_name,"_seqs_uq.fasta", sep=""))
+}
+
+# H.  Make mapping file--Manually
 # I.	Build OTU table using QIIME
 # J.	Summarize taxonomy using QIIME
 # K.	Alpha analysis using QIIME
 # L.	Beta analysis using QIIME
 # M.	NMDS analysis using R
 # N.	Heatmap generation using R
+

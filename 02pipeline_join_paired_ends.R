@@ -65,7 +65,8 @@ fastq.files.joined <- list.files(fastq.paired.join.dir)
 fastq.files.joined
 
 #file commands to be run to convert fastq to fasta
-fastq.to.fasta.command <- paste(qpy,py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
+
+fastq.to.fasta.command <- paste(py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
                                                  " -o ", fastq.convert.fasta.dir, sep="")
 
 for(command in fastq.to.fasta.command){
