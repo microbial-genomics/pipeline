@@ -7,9 +7,18 @@ list.files(SFBR_notag.write.dir)
 headspace_remove.dir
 chimeras_removed.dir <- paste(pipeline.dir,"SFBR_no_chimeras/",sep = "")
 
+#seq filtered sample ids
+nfiles.2 <- length(filtered.dir)
+sample.id.3 <- NA
+for(i in 1:nfiles.2){
+  sample.id.3[i] <- substring(filtered.dir[i],55,57)
+}
+sample.id.3
+
+
 #copy NoTrim files from each SeqFiltered sample directory
 seqfiltered_files_to_copy <- paste(filtered.dir,"/result_dir/NoTag/NoTag_trimmed.fasta",sep = "")
-seqfilteredfiles <- paste("/NoTag_trimmed_",500:504,".fasta",sep = "")
+seqfilteredfiles <- paste("/NoTag_trimmed_",sample.id.3,".fasta",sep = "")
 seqfiltered_files_copied <- paste(SFBR_notag.write.dir,seqfilteredfiles,sep = "")
 file.copy(seqfiltered_files_to_copy,seqfiltered_files_copied)
 

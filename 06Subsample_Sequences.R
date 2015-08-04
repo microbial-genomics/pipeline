@@ -31,9 +31,14 @@ for (i in 1:n){
   seq_count[[i]]<-length(file_list[[i]]) 
 }  
 seq_count
+
+no_chimera_wpath_min_seq <- no_chimera_files_wpath[which(seq_count>2000)]
+
+#Copy Samples with some threshold of sequence counts...maybe median...to subsample?
+
 min_seq<-min(seq_count)
 
-m <- min_seq
+m <- 2000  #hard coded to have m at 2000 sequence counts
 
 i=1
 j=1

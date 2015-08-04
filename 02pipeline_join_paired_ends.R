@@ -43,15 +43,28 @@ for(i in seq(1,nfiles,2)){
                         " -o ", fastq.files.paired.wpath[i], sep="")
   write(file.command, file=fastq.scripts.wpath[i],append=TRUE)
   print(file.command)
-  chmod <- "chmod 755 SFBR-Rain-Event-50*_S*_L001_R1_001.script"
+  chmod <- "chmod 755 SFBR-Rain-Event-*_S*_L001_R1_001.script"
   system(chmod)
   system(fastq.scripts.wpath[i])
   #change name of output
 }
 
+#Get Sample IDs
+#Gets the Sample # out of the file string
+in.files <- list.files(fastq.unfiltered.dir)
+nfiles2 <- length(in.files)
+sample.id <- NA
+for(i in seq(1,nfiles2,2)){
+  sample.id[i] <- na.exclude(substring(in.files[i],17,19))
+}
+sample.id
+sample.id.2 <- na.exclude(sample.id)
+sample.id.2
+
 #paired output
-joined_files_to_copy <- paste(fastq.files.paired.wpath,"/fastqjoin.join.fastq",sep="")[seq(1,10,by=2)]
-joinedfiles <- paste("/fastq",500:504,sep="") #insert sample numbers here manually for now
+nfiles3 <- length(fastq.files.paired.wpath)
+joined_files_to_copy <- paste(fastq.files.paired.wpath,"/fastqjoin.join.fastq",sep="")[seq(1,nfiles3,by=2)]
+joinedfiles <- paste("/fastq",sample.id.2,sep="") #insert sample numbers here manually for now
 joined_files_copied <- paste(fastq.paired.write,joinedfiles,sep="")
 file.copy(joined_files_to_copy, joined_files_copied)
 

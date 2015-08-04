@@ -7,13 +7,14 @@ list.files(SFBR_notag.write.dir)
 modified.write.dir <- paste(pipeline.dir,"SFBR_modified_headspace/",sep = "")
 file.exists(modified.write.dir)
 list.files(modified.write.dir)
+sample.id.3
 rmchimera.dir <- paste(pipeline.dir,"SFBR_no_chimeras/",sep ="")
-rmchimerafiles <- paste("rm_chimera_",500:504,".fasta",sep = "")
+rmchimerafiles <- paste("rm_chimera_",sample.id.3,".fasta",sep = "")
 rmchimerawithpath <- paste(rmchimera.dir,rmchimerafiles,sep = "")
 
 
 #copy Modified Headspace files from the SFBR_notag directory to the SFBR_modified_headspace directory
-modified_files <- paste("NoTag_trimmed_",500:504,"_Modified.fasta",sep = "")
+modified_files <- paste("NoTag_trimmed_",sample.id.3,"_Modified.fasta",sep = "")
 modified_files_copied <- paste(SFBR_notag.write.dir,modified_files, sep = "")
 file.copy(modified_files_copied,modified.write.dir)
 
