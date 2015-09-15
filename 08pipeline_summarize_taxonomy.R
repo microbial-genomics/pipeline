@@ -43,6 +43,7 @@ taxa_plots.command<-paste(qpy, py_join,"plot_taxa_summary.py", " -i ",taxa_otu_f
 for(command in taxa_plots.command){
   system(command)
 }
+
 # K.	Alpha analysis using QIIME
 # L.	Beta analysis using QIIME
 # M.	NMDS analysis using R

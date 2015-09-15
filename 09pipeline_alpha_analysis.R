@@ -15,6 +15,7 @@ heatmap.command<-paste(qpy, py_join,"make_otu_heatmap.py", " -i ", taxa_summary_
 for(command in heatmap.command){
   system(command)
 }
+
 # K.  Alpha analysis using QIIME--default analysis
 #directories
 biom_file_wpath
@@ -58,4 +59,3 @@ chmod <- "chmod 755 beta.script"
 system(chmod)
 system(beta.script)
 
-# M.	NMDS analysis using R

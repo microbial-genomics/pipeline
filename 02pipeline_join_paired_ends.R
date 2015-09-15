@@ -43,7 +43,7 @@ for(i in seq(1,nfiles,2)){
                         " -o ", fastq.files.paired.wpath[i], sep="")
   write(file.command, file=fastq.scripts.wpath[i],append=TRUE)
   print(file.command)
-  chmod <- "chmod 755 SFBR-Rain-Event-*_S*_L001_R1_001.script"
+  chmod <- "chmod 755 SFBR_Scripts/SFBR-Rain-Event-*_S*_L001_R1_001.script"
   system(chmod)
   system(fastq.scripts.wpath[i])
   #change name of output
@@ -77,6 +77,7 @@ file.exists(fastq.paired.join.dir)
 fastq.files.joined <- list.files(fastq.paired.join.dir)
 fastq.files.joined
 
+
 #file commands to be run to convert fastq to fasta
 
 fastq.to.fasta.command <- paste(py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
@@ -85,4 +86,3 @@ fastq.to.fasta.command <- paste(py_join,"convert_fastaqual_fastq.py -c fastq_to_
 for(command in fastq.to.fasta.command){
   system(command)
 }
-

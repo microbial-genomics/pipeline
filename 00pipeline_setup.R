@@ -1,3 +1,4 @@
+ptm <- proc.time()
 Sys.info()
 R.Version()
 
@@ -83,4 +84,18 @@ fastq.files.unfiltered <- list.files(fastq.unfiltered.dir)
 
 # extra stuff in macqiime echo $PATH
 #/macqiime/sw/bin:/macqiime/sw/sbin:/macqiime/QIIME/bin:/macqiime/bin:/macqiime/rtax-0.984:/macqiime/rtax-0.984/scripts:/macqiime/microbiomeutil_2010-04-29/ChimeraSlayer:/macqiime/microbiomeutil_2010-04-29/NAST-Ier:/macqiime/microbiomeutil_2010-04-29/WigeoN:/macqiime/blat
+
+#Source Pipeline Scripts
+source("01pipeline_filter_low_quality_reads.R")
+source("02pipeline_join_paired_ends.R")
+source("03pipeline_filtersequence.R")
+source("04pipeline.R")
+source("05pipeline_remove_chimera_reads.R")
+source("06Subsample_Sequences.R")
+source("07pipeline_build_OTU_table.R")
+source("08pipeline_summarize_taxonomy.R")
+source("09pipeline_alpha_analysis.R")
+
+proc.time() - ptm
+
 

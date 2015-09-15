@@ -24,6 +24,7 @@ remove_chimera.command <- paste(usearch.dir,"usearch8.0.1517_i86osx32"," --uchim
 for(command in remove_chimera.command){
   system(command)
 }
+
 # F.  Optional: random subsample reads using in-house JAVA program or QIIME
 # H.	Make mapping file
 # I.	Build OTU table using QIIME

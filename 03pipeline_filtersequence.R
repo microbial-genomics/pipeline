@@ -19,6 +19,9 @@ seqfilter.command <- paste("java -jar ",seq_filter.dir, "SeqFilters.jar", " --fo
 for(command in seqfilter.command){
   system(command)
 }
+
+
+
 #--forward-primers CAGCMGCCGCGGTAATWC --max-forward 2 --reverse-primers CCGTCAATTCCTTTRAGGTT --max-reverse 1 --seq-file seq_input.fasta –o output_directory_name   the path is (/Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/SeqFilters.jar)
 
 #Example for java run of SeqFilter.jar: java -jar /Users/KenBradshaw/Desktop/sfbr_metagenomic_example/sfbr_fastq_samples/RDPTools/SeqFilters/dist/SeqFilters.jar 
