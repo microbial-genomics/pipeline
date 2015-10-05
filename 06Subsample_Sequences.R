@@ -1,22 +1,15 @@
-# F.  Optional: random subsample reads using in-house R script and ShortRead and BioStrings Packages
-#directories
-rmchimera.dir
+# F.  Randomly subsample reads using ShortRead and BioStrings Packages
+#Files with dimension
 no_chimera_files <- list.files(rmchimera.dir)
-subsamp.dir<-paste(pipeline.dir,"SFBR_no_chimeras_subsampled/",sep="")
-
+no_chimera_files_wpath<-paste(rmchimera.dir,no_chimera_files,sep="")
 subsamp_files<-list.files(subsamp.dir,pattern=".fasta")
 subsamp_files_wpath<-paste(subsamp.dir,subsamp_files,sep="")
-subsamp_files_seqs.dir<-paste(subsamp.dir,"SFBR_subsampled_wseqs/",sep="")
+unique_files_wpath <-paste(subsamp_files_seqs.dir,list.files(subsamp_files_seqs.dir),sep="") 
 
-pipeline.dir
-qiime.dir
-qpy
-py_join
+#Delete existing subsampled files and unique subsampled files before running subsampling scripts
+unlink(subsamp_files_wpath,recursive=FALSE,force=FALSE)
+unlink(unique_files_wpath,recursive=FALSE,force=FALSE)
 
-#directory<-"/Users/KenBradshaw/git/pipeline/SFBR_no_chimeras/"
-#directory_sub<-"/Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/"
-
-no_chimera_files_wpath<-paste(rmchimera.dir,no_chimera_files,sep="")
 i=1
 j=1
 k=1
@@ -24,7 +17,8 @@ file_list <- list()
 fas.subset<- list()
 seq_count<- vector()
 
-n<-length(no_chimera_files_wpath)
+n <- length(no_chimera_files_wpath)
+
 for (i in 1:n){
   current_file <- no_chimera_files_wpath[i]
   file_list[[i]]<-readDNAStringSet(current_file,"fasta")
@@ -91,13 +85,5 @@ for (p in 1:z){
                                          current_file_name,"_seqs_uq.fasta", sep=""))
 }
 #NOTE:  there is nothing in the "out" variable but the files are written to the subsamp_files_seqs.dir
-list.files(subsamp_files_seqs.dir)
 
-# H.  Make mapping file--Manually
-# I.	Build OTU table using QIIME
-# J.	Summarize taxonomy using QIIME
-# K.	Alpha analysis using QIIME
-# L.	Beta analysis using QIIME
-# M.	NMDS analysis using R
-# N.	Heatmap generation using R
 

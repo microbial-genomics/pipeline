@@ -1,3 +1,0 @@
-#!/bin/bash
-source /macqiime/configs/bash_profile.txt
-/macqiime/bin/python /macqiime/bin/pick_de_novo_otus.py -i /Users/KenBradshaw/git/pipeline/SFBR_seqs_in_otu/SFBR_all_seqs.fasta -o /Users/KenBradshaw/git/pipeline/otus -f 

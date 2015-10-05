@@ -1,21 +1,23 @@
 # E.  Remove Chimera reads using usearch from http://www.drive5.com/usearch/ 
-#directories
-pipeline.dir
-usearch.dir
-SFBR_notag.write.dir
+
+#Files with dimension
 list.files(SFBR_notag.write.dir)
-modified.write.dir <- paste(pipeline.dir,"SFBR_modified_headspace/",sep = "")
-file.exists(modified.write.dir)
 list.files(modified.write.dir)
-sample.id.3
-rmchimera.dir <- paste(pipeline.dir,"SFBR_no_chimeras/",sep ="")
+  #sample ids from 04pipeline_remove_headspace.R
+  sample.id.3 
 rmchimerafiles <- paste("rm_chimera_",sample.id.3,".fasta",sep = "")
 rmchimerawithpath <- paste(rmchimera.dir,rmchimerafiles,sep = "")
+
+#Delete any existing files in the modified headspace directory and removed chimeras directory
+modified.notag.rm <- paste(modified.write.dir,list.files(modified.write.dir),sep="")
+unlink(modified.notag.rm,recursive=FALSE,force=FALSE)
+rmchimera.dir.rm <- paste(rmchimera.dir,list.files(rmchimera.dir),sep="")
+unlink(rmchimera.dir.rm,recursive=FALSE,force=FALSE)
 
 
 #copy Modified Headspace files from the SFBR_notag directory to the SFBR_modified_headspace directory
 modified_files <- paste("NoTag_trimmed_",sample.id.3,"_Modified.fasta",sep = "")
-modified_files_copied <- paste(SFBR_notag.write.dir,modified_files, sep = "")
+modified_files_copied <- paste(SFBR_notag.write.dir,"/",modified_files, sep = "")
 file.copy(modified_files_copied,modified.write.dir)
 
 #file command
@@ -24,12 +26,3 @@ remove_chimera.command <- paste(usearch.dir,"usearch8.0.1517_i86osx32"," --uchim
 for(command in remove_chimera.command){
   system(command)
 }
-
-# F.  Optional: random subsample reads using in-house JAVA program or QIIME
-# H.	Make mapping file
-# I.	Build OTU table using QIIME
-# J.	Summarize taxonomy using QIIME
-# K.	Alpha analysis using QIIME
-# L.	Beta analysis using QIIME
-# M.	NMDS analysis using R
-# N.	Heatmap generation using R

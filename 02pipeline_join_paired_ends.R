@@ -1,34 +1,19 @@
 # C.	Join paired end reads using join_paired_ends.py from QIIME 
 # install macqiime: http://www.wernerlab.org/software/macqiime/macqiime-installation
 #also fastq to qiime: http://www.wernerlab.org/software/macqiime/add-fastq-join-to-macqiime-1-8-0
-#system("macqiime") don't run- crashes R!
 
-#directories
-fastq.filtered.dir
-fastq.paired.dir
-fastq.paired.write <- paste(fastq.paired.dir,"SFBR_joined",sep="")
-fastq.scripts.dir <- paste(pipeline.dir,"SFBR_Scripts/",sep="")
-fastq.convert.fasta.dir <- paste(pipeline.dir,"SFBR_paired_fastq_to_fasta/",sep="")
-  
-#pipeline.fastq.out.dir #*Data_out now filtered
-
-#create script filenames
+#create script filenames with dimension
 fastq.scripts <- sub("fastq","script",fastq.files.unfiltered)
 fastq.scripts.wpath <- paste(fastq.scripts.dir,fastq.scripts,sep="")
-fastq.scripts.wpath
+#Delete existing join_paired_end scripts prior to creating new join_paired_end.py scripts
+unlink(fastq.scripts.wpath,recursive=FALSE,force=FALSE)
 
-#file names
-fastq.files.filtered.wpath
+#file names with dimension
 fastq.files.paired.wpath <- paste(fastq.paired.dir, paste("paired_",fastq.files.unfiltered,sep=""),sep="") 
-#paired.fastq.to.fasta.wpath <- paste("fasta_",
-#fastq.files.filtered
-#fastq.outfiles <- paste(fastq.filtered.dir,list.files(fastq.filtered.dir),sep="")
-#fastq.outfiles.names <- sub(".fastq","",list.files(fastq.filtered.dir))
-#fastq.outfiles
-
 nfiles <- length(fastq.files.filtered)
-qpy <- "/macqiime/bin/python "
-Sys.which("macqiime")
+
+#delete any files in the fastq.paired.dir prior to running script
+unlink(fastq.files.paired.wpath,recursive=TRUE,force=FALSE)
 
 #http://www.wernerlab.org/software/macqiime/macqiime-installation
 #chmod 755 for new script files so that R system can run them
@@ -55,28 +40,28 @@ in.files <- list.files(fastq.unfiltered.dir)
 nfiles2 <- length(in.files)
 sample.id <- NA
 for(i in seq(1,nfiles2,2)){
-  sample.id[i] <- na.exclude(substring(in.files[i],17,19))
+  sample.id[i] <- na.exclude(substring(in.files[i],17,19)) #hard coded to SFBR data string lengths 
 }
 sample.id
 sample.id.2 <- na.exclude(sample.id)
 sample.id.2
 
+#Delete any existing files in the SFBR_Joined directory prior to copying new files
+fastq.files.joined.wpath <- paste(fastq.paired.join.dir,"/",list.files(fastq.paired.join.dir),sep="")
+unlink(fastq.files.joined.wpath,recursive=FALSE, force=FALSE)
+
 #paired output
 nfiles3 <- length(fastq.files.paired.wpath)
 joined_files_to_copy <- paste(fastq.files.paired.wpath,"/fastqjoin.join.fastq",sep="")[seq(1,nfiles3,by=2)]
-joinedfiles <- paste("/fastq",sample.id.2,sep="") #insert sample numbers here manually for now
-joined_files_copied <- paste(fastq.paired.write,joinedfiles,sep="")
-file.copy(joined_files_to_copy, joined_files_copied)
+joinedfiles <- paste("/fastq",sample.id.2,sep="") #gets the sample name from the substring of sample.id
+joined_files_copied <- paste(fastq.paired.join.dir,joinedfiles,sep="")
+file.copy(joined_files_to_copy, joined_files_copied) #copies .fastq files from SFBR_Data_Paired and pastes to SFBR_joined
 
-#Look for the fastjoin.join.fastq in the output_file folder, it is the joined fastq file. 
-#Rename the file name to be more descriptive.
-#Need to go into each paired_sample# directory and rename the fastjoin.join.fastq to append the sample name to it
-#file names to convert to fasta (I manually renamed these and copied them into the /SFBR_joined directory for now)
-fastq.paired.join.dir <- paste(fastq.paired.dir,"SFBR_joined",sep="")
-file.exists(fastq.paired.join.dir)
-fastq.files.joined <- list.files(fastq.paired.join.dir)
-fastq.files.joined
+#Look for the fastjoin.join.fastq in the output_file folder, use the joined fastq file. 
 
+#Delete any existing files in the fastq.convert.fasta.dir prior to running convert_fastaqual_fastq.py
+fasta.files <-paste(fastq.convert.fasta.dir,list.files(fastq.convert.fasta.dir),sep="")
+unlink(fasta.files,recursive=FALSE,force=FALSE)
 
 #file commands to be run to convert fastq to fasta
 
@@ -86,3 +71,4 @@ fastq.to.fasta.command <- paste(py_join,"convert_fastaqual_fastq.py -c fastq_to_
 for(command in fastq.to.fasta.command){
   system(command)
 }
+
