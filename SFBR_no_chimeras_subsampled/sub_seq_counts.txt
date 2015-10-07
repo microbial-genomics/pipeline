@@ -1,8 +1,8 @@
 
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/501sub.fasta (Sequence lengths (mean +/- std): 369.3070 +/- 3.9846)
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/503sub.fasta (Sequence lengths (mean +/- std): 369.3374 +/- 4.3601)
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/500sub.fasta (Sequence lengths (mean +/- std): 369.4546 +/- 4.0809)
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/504sub.fasta (Sequence lengths (mean +/- std): 369.4566 +/- 2.9589)
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/502sub.fasta (Sequence lengths (mean +/- std): 369.4768 +/- 4.9176)
-5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/505sub.fasta (Sequence lengths (mean +/- std): 369.5948 +/- 6.7943)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/501sub.fasta (Sequence lengths (mean +/- std): 369.3326 +/- 3.5172)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/503sub.fasta (Sequence lengths (mean +/- std): 369.3998 +/- 4.8010)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/502sub.fasta (Sequence lengths (mean +/- std): 369.4506 +/- 4.6169)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/500sub.fasta (Sequence lengths (mean +/- std): 369.4750 +/- 3.8478)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/505sub.fasta (Sequence lengths (mean +/- std): 369.5020 +/- 6.6810)
+5000  : /Users/KenBradshaw/git/pipeline/SFBR_no_chimeras_subsampled/504sub.fasta (Sequence lengths (mean +/- std): 369.5112 +/- 3.8949)
 30000  : Total

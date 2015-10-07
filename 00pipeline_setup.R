@@ -2,7 +2,7 @@ ptm <- proc.time()
 Sys.info()
 R.Version()
 
-library(rPython)
+library("rPython")
 library("ShortRead")
 library("Biostrings")
 
@@ -32,7 +32,8 @@ if(Sys.getenv("LOGNAME")=="puruckertom"){ #macqiime is on root on the mac hard d
 }
 if(Sys.info()[4]=="kens-air"){
   pipeline.dir<-path.expand("~/git/pipeline/")
-  fastq.dir <- "/usr/local/Cellar/fastx_toolkit/0.0.14/bin/"
+  #fastq.dir <- "/usr/local/Cellar/fastx_toolkit/0.0.14/bin/"
+  sickle.dir <- "/usr/bin/"
   fastq_join.dir <- "/macqiime/bin/fastq-join"
   qiime.dir <- "/macqiime/bin/"
   py_join <- "/macqiime/bin/"
@@ -44,7 +45,8 @@ if(Sys.info()[4]=="kens-air"){
 }
 if(Sys.info()[4]=="Kens-MacBook-Air.local"){
   pipeline.dir<-path.expand("~/git/pipeline/")
-  fastq.dir <- "/usr/local/Cellar/fastx_toolkit/0.0.14/bin/"
+  #fastq.dir <- "/usr/local/Cellar/fastx_toolkit/0.0.14/bin/"
+  sickle.dir <- "/usr/bin/"
   fastq_join.dir <- "/macqiime/bin/fastq-join"
   qiime.dir <- "/macqiime/bin/"
   py_join <- "/macqiime/bin/"
@@ -57,7 +59,7 @@ if(Sys.info()[4]=="Kens-MacBook-Air.local"){
 
 
 file.exists(pipeline.dir)
-file.exists(fastq.dir)
+file.exists(sickle.dir)
 file.exists(fastq_join.dir)
 file.exists(qiime.dir)
 
@@ -76,6 +78,7 @@ setwd(pipeline.dir)
 #Data and Script Directories
 fastq.unfiltered.dir <- paste(pipeline.dir,"SFBR_Data/",sep="") #Raw NGS Data Directory
 fastq.filtered.dir <- paste(pipeline.dir,"SFBR_Data_filtered/",sep="") #Filtered Data Directory
+trimmed.singles.dir <- paste(fastq.filtered.dir,"trimmed.singles/",sep="")
 fastq.paired.dir <- paste(pipeline.dir,"SFBR_Data_paired/",sep="") #Paired Ends Data Directory
 fastq.paired.write <- paste(fastq.paired.dir,"SFBR_joined",sep="") #Directory to write joined file names to
 fastq.scripts.dir <- paste(pipeline.dir,"SFBR_Scripts/",sep="") #Directory with join paired ends scripts for each sample
@@ -100,7 +103,7 @@ beta_out_dir <-paste(otu.dir,"/beta_dir/",sep="") #Directory for beta analysis
 #/macqiime/sw/bin:/macqiime/sw/sbin:/macqiime/QIIME/bin:/macqiime/bin:/macqiime/rtax-0.984:/macqiime/rtax-0.984/scripts:/macqiime/microbiomeutil_2010-04-29/ChimeraSlayer:/macqiime/microbiomeutil_2010-04-29/NAST-Ier:/macqiime/microbiomeutil_2010-04-29/WigeoN:/macqiime/blat
 
 #Source Pipeline Scripts
-source("01pipeline_filter_low_quality_reads.R")
+source("01pipeline_filter_low_quality_reads_sickle.R")
 source("02pipeline_join_paired_ends.R")
 source("03pipeline_filtersequence.R")
 source("04pipeline_remove_headspace.R")
