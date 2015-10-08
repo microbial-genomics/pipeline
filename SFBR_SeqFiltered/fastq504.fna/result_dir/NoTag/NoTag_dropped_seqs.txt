@@ -4,7 +4,6 @@ M02849:22:000000000-A97TD:1:1112:4762:14695	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2110:18290:13419	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:19507:17091	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:22310:11021	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1119:19691:14090	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:14452:15570	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:17668:17322	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:7019:20487	Primer trimmer	Reverse primer didn't hit
@@ -13,7 +12,6 @@ M02849:22:000000000-A97TD:1:1109:14616:12905	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:1115:10515:21563	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:8857:23479	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:22540:10048	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2104:22651:5755	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
 M02849:22:000000000-A97TD:1:2115:11824:18038	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1112:21718:11206	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1112:23788:7754	Primer trimmer	Reverse primer didn't hit
@@ -48,14 +46,15 @@ M02849:22:000000000-A97TD:1:2103:14345:17520	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:2115:3752:15678	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2103:13924:9074	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:6899:16865	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1102:21109:5971	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2114:27598:14880	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1109:18884:23865	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:24002:3554	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:11806:20296	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:3897:19510	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:14534:24771	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1113:19945:18653	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:22848:16659	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:11457:21147	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2115:20026:1961	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:4321:6260	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:7174:16418	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:21819:19206	Primer trimmer	Reverse primer didn't hit
@@ -66,8 +65,10 @@ M02849:22:000000000-A97TD:1:1118:18960:14665	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:1116:14648:7077	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2107:17307:20569	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:12366:8007	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2103:28925:8559	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:7364:13510	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:24453:9194	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2118:23558:18272	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:10087:15207	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:11967:8430	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:4926:20581	Primer trimmer	Reverse primer didn't hit
@@ -100,6 +101,8 @@ M02849:22:000000000-A97TD:1:1119:4800:20832	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2117:25488:17442	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:26552:13856	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:19555:12436	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1111:27109:6391	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1111:26493:9814	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:9048:17279	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2107:16471:19484	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2116:10855:8107	Primer trimmer	Reverse primer didn't hit
@@ -128,6 +131,7 @@ M02849:22:000000000-A97TD:1:1101:13601:19046	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:1109:20708:8835	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2112:14188:5312	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:7099:7424	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1114:17881:21536	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2103:5733:22954	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:9172:5487	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2117:2550:14436	Primer trimmer	Reverse primer didn't hit
@@ -151,12 +155,14 @@ M02849:22:000000000-A97TD:1:2114:24394:8175	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2117:21454:9051	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1108:23477:5705	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:25054:22363	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1118:26291:15114	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:3775:11618	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2108:2951:9557	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:3357:15536	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:21177:7428	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
+M02849:22:000000000-A97TD:1:1112:12449:21548	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2101:12048:3709	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:25076:9109	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2116:9570:20890	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1112:19627:19543	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:16518:18216	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:10485:5593	Primer trimmer	Reverse primer didn't hit
@@ -169,15 +175,17 @@ M02849:22:000000000-A97TD:1:1115:8550:9602	Primer trimmer	Reverse primer didn't 
 M02849:22:000000000-A97TD:1:2110:23845:4385	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:9202:22526	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:9021:2334	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1117:17240:24600	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:7350:15140	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1108:3127:16423	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2119:23881:17303	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:22409:10624	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2115:11438:24234	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:5786:8805	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:9593:7858	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:14266:7829	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:24303:10488	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:5573:15762	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1114:11435:7935	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:23514:23409	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:16742:10575	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:22103:10655	Primer trimmer	Reverse primer didn't hit
@@ -233,9 +241,11 @@ M02849:22:000000000-A97TD:1:1112:5165:10262	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2110:23015:5229	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:5666:14266	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2103:9379:21570	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2112:23058:2774	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:14623:18829	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1108:24421:6525	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1107:6212:5242	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2110:27089:20935	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:21181:10041	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:5530:21396	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2112:19105:23254	Primer trimmer	Reverse primer didn't hit
@@ -253,6 +263,7 @@ M02849:22:000000000-A97TD:1:1111:24980:12458	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:2112:5721:6501	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:2833:10793	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:12021:22917	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2107:11899:5269	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2106:15105:7648	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2112:19749:13238	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2113:26312:12390	Primer trimmer	Reverse primer didn't hit
@@ -267,6 +278,7 @@ M02849:22:000000000-A97TD:1:2101:12014:15335	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:2107:11174:9131	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:11480:19965	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:11461:6642	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1115:9870:25009	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:19622:1987	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:14699:8937	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2102:5158:4460	Primer trimmer	Reverse primer didn't hit
@@ -285,6 +297,7 @@ M02849:22:000000000-A97TD:1:1107:15557:16058	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:2111:15189:4933	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:10767:16563	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2101:18249:22304	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2115:28385:18421	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:13801:21465	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:20517:16092	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2105:11414:12050	Primer trimmer	Reverse primer didn't hit
@@ -294,10 +307,12 @@ M02849:22:000000000-A97TD:1:2106:17572:7579	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1102:23632:19710	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2114:17762:18967	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2116:6069:14383	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1105:13725:19483	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 5
 M02849:22:000000000-A97TD:1:1116:23282:11772	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:13715:22551	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:17314:17231	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:22738:3219	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1119:19938:23877	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:9299:1989	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2109:3664:16867	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1114:13140:21591	Primer trimmer	Reverse primer didn't hit
@@ -321,10 +336,11 @@ M02849:22:000000000-A97TD:1:1111:6311:20740	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2101:7203:23064	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1112:18852:2468	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:19651:11587	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2119:27311:15359	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2107:16378:20658	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:4321:12421	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1106:26778:5779	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2112:15866:11924	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2115:20177:24576	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2114:18002:3484	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:7180:2930	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:6789:9440	Primer trimmer	Reverse primer didn't hit
@@ -333,6 +349,7 @@ M02849:22:000000000-A97TD:1:2107:15927:11121	Primer trimmer	Forward primer didn'
 M02849:22:000000000-A97TD:1:1110:2417:13212	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:9878:5380	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:15525:20221	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1104:23520:22356	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:11271:23311	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:9356:20308	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2102:10129:11190	Primer trimmer	Reverse primer didn't hit
@@ -360,6 +377,7 @@ M02849:22:000000000-A97TD:1:1104:22460:8511	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1108:21768:14685	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2103:18631:4149	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:25081:18032	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2117:23994:9847	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2113:9238:21103	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:20250:12608	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:12852:17206	Primer trimmer	Reverse primer didn't hit
@@ -386,24 +404,25 @@ M02849:22:000000000-A97TD:1:2102:22819:5186	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2101:16971:8504	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:27170:7052	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:15029:24537	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1102:22721:3230	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:11177:22129	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2116:11606:14517	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2103:23232:2516	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1104:23957:4934	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:8066:4400	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2102:7150:7605	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:27575:6303	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2104:20255:24829	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:3161:9484	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2114:19690:18682	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:23608:2174	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:23772:13326	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 5
 M02849:22:000000000-A97TD:1:2108:15056:12443	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1113:17663:21045	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2101:21215:3575	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:24926:14471	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:15354:11350	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2114:28456:13458	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1114:17532:4543	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2111:26716:6080	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 6
 M02849:22:000000000-A97TD:1:1118:21469:16059	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:7784:2654	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:11558:7109	Primer trimmer	Reverse primer didn't hit
@@ -412,11 +431,12 @@ M02849:22:000000000-A97TD:1:2104:25238:8498	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1105:5955:9302	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:6631:4784	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1119:15255:19968	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2116:23174:3451	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:12563:19265	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1119:13840:4822	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:7497:8949	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:17391:3943	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2114:16888:4949	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 5
-M02849:22:000000000-A97TD:1:2112:26906:14101	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:12797:6442	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:25898:22130	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:8856:8206	Primer trimmer	Reverse primer didn't hit
@@ -439,6 +459,8 @@ M02849:22:000000000-A97TD:1:1106:15557:7800	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2107:6690:19715	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:9020:13393	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2101:14318:10793	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2114:7058:17236	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1105:27901:13123	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:23022:9022	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2103:7000:5870	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:23793:11631	Primer trimmer	Reverse primer didn't hit
@@ -452,6 +474,7 @@ M02849:22:000000000-A97TD:1:2116:4907:12155	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2109:10135:18436	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:7934:11661	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:20464:2770	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1111:27148:5274	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:16736:18893	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1119:17762:3410	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:24236:8160	Primer trimmer	Reverse primer didn't hit
@@ -471,13 +494,13 @@ M02849:22:000000000-A97TD:1:1117:4935:5578	Primer trimmer	Reverse primer didn't 
 M02849:22:000000000-A97TD:1:2103:10296:5143	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1112:10181:15486	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:6602:18096	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2108:22699:24360	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2116:9146:17836	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:4647:6289	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1114:9647:3954	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:10391:23114	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:6238:16438	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2116:24305:13192	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1101:26226:10868	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2111:10388:13881	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:20813:14702	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:4396:13998	Primer trimmer	Reverse primer didn't hit
@@ -486,6 +509,7 @@ M02849:22:000000000-A97TD:1:1105:7030:6488	Primer trimmer	Reverse primer didn't 
 M02849:22:000000000-A97TD:1:2110:14868:2103	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:22845:15065	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:7606:19686	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1106:26376:16044	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:11452:3768	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:14164:20838	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:5874:22193	Primer trimmer	Reverse primer didn't hit
@@ -518,7 +542,7 @@ M02849:22:000000000-A97TD:1:2116:8001:4769	Primer trimmer	Reverse primer didn't 
 M02849:22:000000000-A97TD:1:1113:17521:12482	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:4084:20958	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2113:24415:6576	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2107:20024:20680	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2111:23444:3168	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 4
 M02849:22:000000000-A97TD:1:1117:9309:13182	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:12540:10683	Primer trimmer	Reverse primer didn't hit, best partial match is with primer 1 with a distance of 1
 M02849:22:000000000-A97TD:1:2106:26409:10648	Primer trimmer	Reverse primer didn't hit
@@ -527,6 +551,7 @@ M02849:22:000000000-A97TD:1:2101:19878:17265	Primer trimmer	Forward primer didn'
 M02849:22:000000000-A97TD:1:2119:13837:7703	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:8105:10322	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:18641:23034	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1104:13899:2087	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2102:4358:15903	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:21123:12653	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:18780:9188	Primer trimmer	Reverse primer didn't hit
@@ -540,13 +565,16 @@ M02849:22:000000000-A97TD:1:1102:10561:22399	Primer trimmer	Forward primer didn'
 M02849:22:000000000-A97TD:1:2104:28087:19235	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:12990:9855	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2112:13182:10183	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1106:26732:5774	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1119:20790:10840	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:10312:5847	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1119:10470:24574	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:5025:7187	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:8588:22334	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:26355:12912	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2113:27121:11562	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:19464:14078	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2117:2359:9430	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:7854:17459	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:24674:10740	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1104:11919:14098	Primer trimmer	Reverse primer didn't hit
@@ -556,7 +584,8 @@ M02849:22:000000000-A97TD:1:2103:3300:13699	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1107:16196:14279	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:4189:9506	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:19209:18520	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1101:19196:18246	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2114:26338:21248	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2101:24250:23217	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:25103:9451	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:8182:3802	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:6477:19437	Primer trimmer	Reverse primer didn't hit
@@ -576,7 +605,9 @@ M02849:22:000000000-A97TD:1:2101:8626:14924	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1104:15054:19055	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1105:17406:14920	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1111:24029:4569	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1105:23797:3785	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:8013:20542	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2105:24178:23383	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2106:21547:11092	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:4504:20574	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:4234:17872	Primer trimmer	Reverse primer didn't hit
@@ -596,14 +627,14 @@ M02849:22:000000000-A97TD:1:1112:13711:18667	Primer trimmer	Reverse primer didn'
 M02849:22:000000000-A97TD:1:1118:9113:18683	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2119:28062:19161	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:20439:16927	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1107:14781:6110	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1113:15146:19342	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2101:27932:16557	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2105:12352:13803	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2105:18986:22896	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2113:3959:18566	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2102:23019:8914	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2109:13816:20337	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:9966:19553	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2106:28078:6889	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2107:21083:15142	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:16280:13840	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1106:9749:21320	Primer trimmer	Reverse primer didn't hit
@@ -620,7 +651,7 @@ M02849:22:000000000-A97TD:1:2116:27318:8666	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1108:19430:6116	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:14151:2399	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:15603:3165	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:2105:8851:17475	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2105:17278:24347	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:27383:9358	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:6316:20294	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2105:11907:20381	Primer trimmer	Reverse primer didn't hit
@@ -632,18 +663,21 @@ M02849:22:000000000-A97TD:1:2103:9793:11510	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1118:10660:21029	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1116:9516:22665	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1117:25724:13063	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:1107:24406:15339	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:6440:12369	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:3204:12760	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1102:6561:10807	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1109:8956:7333	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2101:23873:21580	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2107:10365:3463	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2111:18081:21508	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:25421:10674	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2118:17044:6866	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:3241:19406	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:13483:11185	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:27780:8049	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:19289:6663	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2114:20250:24922	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2104:15421:6853	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1103:20702:7828	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2117:23256:11722	Primer trimmer	Reverse primer didn't hit
@@ -651,6 +685,7 @@ M02849:22:000000000-A97TD:1:1107:18637:5610	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:2105:16412:6019	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1101:9708:9970	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1118:10702:12280	Primer trimmer	Reverse primer didn't hit
+M02849:22:000000000-A97TD:1:2104:23681:17139	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2115:26399:7182	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:24164:13290	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1119:22097:14210	Primer trimmer	Reverse primer didn't hit
@@ -659,7 +694,6 @@ M02849:22:000000000-A97TD:1:1102:13711:5906	Primer trimmer	Reverse primer didn't
 M02849:22:000000000-A97TD:1:1118:8230:14713	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1118:11372:18055	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1110:16488:3986	Primer trimmer	Reverse primer didn't hit
-M02849:22:000000000-A97TD:1:1112:20091:22214	Primer trimmer	Forward primer didn't hit, best match is with primer 1 with a distance of 3
 M02849:22:000000000-A97TD:1:2116:2583:14632	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:1115:14362:9188	Primer trimmer	Reverse primer didn't hit
 M02849:22:000000000-A97TD:1:2108:11725:17540	Primer trimmer	Reverse primer didn't hit

@@ -1,13 +1,13 @@
 Tag	NoTag
-Total sequences	20027
-Sequences after trimming	19531
+Total sequences	20383
+Sequences after trimming	19854
 Average sequence length after trimming	369
-Standard Deviation of sequence length	4.7
+Standard Deviation of sequence length	3.93
 
 Filtered sequence summary
 Character Replacement Filter	0
 Sequence Alphabet Filter	0
-Primer trimmer	496
+Primer trimmer	529
 N count > 0 seq filter	0
 GreaterThan 0 sequence length filter	0
 LessThan 1000 sequence length filter	0

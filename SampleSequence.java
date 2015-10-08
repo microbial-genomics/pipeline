@@ -33,7 +33,7 @@ public class SampleSequence {
 			FileWriter fwriter = new FileWriter(outputFile);
 			BufferedWriter out = new BufferedWriter(fwriter);
 			
-			int count = 9811;
+			int count = 5000;
 			int n = 1;
 			while (count > 0) {
 				Random rand = new Random();
