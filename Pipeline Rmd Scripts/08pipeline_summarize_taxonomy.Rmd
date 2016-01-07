@@ -1,0 +1,66 @@
+#Make OTU network with mapping file
+```{r,echo=FALSE,eval=TRUE,include=FALSE,messages=TRUE,error=TRUE}
+#Files with dimension
+map_file<-list.files(map.dir,pattern=".txt")
+map_file_wpath<-paste(map.dir,map_file,sep="")
+otu.no.singletons.file.wpath
+```
+
+##Make OTU network command
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+otu_network.command<-paste(qpy, py_join,"make_otu_network.py", " -m ", map_file_wpath, " -i ",
+                           otu.no.singletons.file.wpath, " -o ", otu.dir,sep="")
+for(command in otu_network.command){
+  system(command)
+}
+```
+
+#Summarize taxonomy using QIIME
+##Summarize taxonomy command
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+taxa.command<-paste(qpy, py_join, "summarize_taxa.py", " -i ",
+                    otu.no.singletons.file.wpath, " -o ",taxa_summary.dir,sep="" )
+for(command in taxa.command){
+  system(command)
+}
+```
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+###Files for taxomonmy plots directories
+taxa_summary_files<-list.files(taxa_summary.dir)
+taxa_otu_L2_file_wpath<-paste(taxa_summary.dir,"/",list.files(taxa_summary.dir,pattern="L2.txt"),sep="")
+taxa_otu_L3_file_wpath<-paste(taxa_summary.dir,"/",list.files(taxa_summary.dir,pattern="L3.txt"),sep="")
+taxa_otu_L4_file_wpath<-paste(taxa_summary.dir,"/",list.files(taxa_summary.dir,pattern="L4.txt"),sep="")
+taxa_otu_L5_file_wpath<-paste(taxa_summary.dir,"/",list.files(taxa_summary.dir,pattern="L5.txt"),sep="")
+taxa_otu_L6_file_wpath<-paste(taxa_summary.dir,"/",list.files(taxa_summary.dir,pattern="L6.txt"),sep="")
+taxa_otu_files_in_wpath<-paste(taxa_otu_L2_file_wpath,",",taxa_otu_L3_file_wpath,",",
+                               taxa_otu_L4_file_wpath,",",taxa_otu_L5_file_wpath,",",
+                               taxa_otu_L6_file_wpath,sep="")
+```
+##Taxonomy plots command
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+taxa_plots.command<-paste(qpy, py_join,"plot_taxa_summary.py", " -i ",taxa_otu_files_in_wpath,
+                         " -o ", taxa_summary_plots.dir,sep="")
+for(command in taxa_plots.command){
+  system(command)
+}
+##summarized taxa plot files wpath
+area.charts.wpath <- paste(taxa_summary_plots.dir,"area_charts.html",sep="")
+bar.charts.wpath <- paste(taxa_summary_plots.dir,"bar_charts.html",sep="")
+```
+###Input files for taxonomy plots
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+taxa_otu_L2_file_wpath
+taxa_otu_L3_file_wpath
+taxa_otu_L4_file_wpath
+taxa_otu_L5_file_wpath
+taxa_otu_L6_file_wpath
+```
+###Path to summarized taxa HTML plots
+####Area Charts
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+area.charts.wpath
+```
+####Bar Charts
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+bar.charts.wpath
+```

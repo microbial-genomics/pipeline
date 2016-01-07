@@ -1,0 +1,31 @@
+#Filter out the primer/barcode sequence using SeqFilters.jar from (https://github.com/rdpstaff/SeqFilters)
+```{r,echo=FALSE,eval=TRUE,include=FALSE,messages=TRUE,error=TRUE}
+#Files with dimension
+fasta.files <-paste(fastq.convert.fasta.dir,list.files(fastq.convert.fasta.dir,pattern="fna"),sep="")
+filtered.dir.wpath <- paste(filtered.dir,paste(list.files(fastq.convert.fasta.dir,pattern="fna"),sep=""),sep="")
+
+#Delete any folders in the SFBR_SeqFiltered directory...the java script will not run if files already exist
+unlink(filtered.dir.wpath,recursive=TRUE, force=FALSE)
+
+#D. Filter out the primer/barcode sequence
+#1.  Download SeqFilters.jar from https://github.com/rdpstaff/SeqFilters 
+#2.  Run SeqFilters.jar with this command: java -jar /path/to/SeqFilters.jar
+```
+
+##SeqFilters file command
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+seqfilter.command <- paste("java -jar ",seq_filter.dir, "SeqFilters.jar", " --forward-primers CAGCMGCCGCGGTAATWC --max-forward 2 --reverse-primers CCGTCAATTCCTTTRAGGTT --max-reverse 1 --seq-file ", fasta.files,
+                                " -o ", filtered.dir.wpath, sep="")                          
+for(command in seqfilter.command){
+  system(command)
+}
+```
+###Input fasta files for filtering
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+fasta.files
+```
+###SeqFiltered files
+```{r,echo=TRUE,eval=TRUE,include=TRUE,messages=TRUE,error=TRUE}
+filtered.dir.wpath
+```
+
