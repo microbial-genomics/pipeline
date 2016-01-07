@@ -5,6 +5,7 @@ R.Version()
 library("rPython")
 library("ShortRead")
 library("Biostrings")
+library("data.table")
 
 #git clone QIIME in terminal with
 #git clone git://github.com/qiime/qiime.git Qiime
@@ -78,7 +79,10 @@ setwd(pipeline.dir)
 #Data and Script Directories
 fastq.unfiltered.dir <- paste(pipeline.dir,"SFBR_Data/",sep="") #Raw NGS Data Directory
 fastq.filtered.dir <- paste(pipeline.dir,"SFBR_Data_filtered/",sep="") #Filtered Data Directory
-trimmed.singles.dir <- paste(fastq.filtered.dir,"trimmed.singles/",sep="")
+filter.countseqs.dir <- paste(pipeline.dir,"Filter_Seq_Counts/",sep="")#Directory to store pre and post trimmed seq counts
+unfiltered.seqcounts.dir<- paste(filter.countseqs.dir,"Unfiltered_seq_counts/",sep="") #Unfiltered seq counts
+filtered.seqcounts.dir<- paste(filter.countseqs.dir,"Filtered_seq_counts/",sep="") #Filtered seq counts
+trimmed.singles.dir <- paste(fastq.filtered.dir,"trimmed.singles/",sep="") #Trimmed singles directory
 fastq.paired.dir <- paste(pipeline.dir,"SFBR_Data_paired/",sep="") #Paired Ends Data Directory
 fastq.paired.write <- paste(fastq.paired.dir,"SFBR_joined",sep="") #Directory to write joined file names to
 fastq.scripts.dir <- paste(pipeline.dir,"SFBR_Scripts/",sep="") #Directory with join paired ends scripts for each sample
@@ -103,15 +107,15 @@ beta_out_dir <-paste(otu.dir,"/beta_dir/",sep="") #Directory for beta analysis
 #/macqiime/sw/bin:/macqiime/sw/sbin:/macqiime/QIIME/bin:/macqiime/bin:/macqiime/rtax-0.984:/macqiime/rtax-0.984/scripts:/macqiime/microbiomeutil_2010-04-29/ChimeraSlayer:/macqiime/microbiomeutil_2010-04-29/NAST-Ier:/macqiime/microbiomeutil_2010-04-29/WigeoN:/macqiime/blat
 
 #Source Pipeline Scripts
-source("01pipeline_filter_low_quality_reads_sickle.R")
-source("02pipeline_join_paired_ends.R")
-source("03pipeline_filtersequence.R")
-source("04pipeline_remove_headspace.R")
-source("05pipeline_remove_chimera_reads.R")
-source("06Subsample_Sequences.R")
-source("07pipeline_build_OTU_table.R")
-source("08pipeline_summarize_taxonomy.R")
-source("09pipeline_alpha_analysis.R")
+#source("01pipeline_filter_low_quality_reads_sickle.R")
+#source("02pipeline_join_paired_ends.R")
+#source("03pipeline_filtersequence.R")
+#source("04pipeline_remove_headspace.R")
+#source("05pipeline_remove_chimera_reads.R")
+#source("06Subsample_Sequences.R")
+#source("07pipeline_build_OTU_table.R")
+#source("08pipeline_summarize_taxonomy.R")
+#source("09pipeline_alpha_analysis.R")
 
 proc.time() - ptm
 

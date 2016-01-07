@@ -1,13 +1,12 @@
 #Make OTU network with mapping file
 #Files with dimension
-map_file<-list.files(map.dir,pattern=".txt")
+map_file<-list.files(map.dir,pattern="manure_mapping.txt")
 map_file_wpath<-paste(map.dir,map_file,sep="")
-biom_file<-list.files(otu.dir,pattern=".biom")
-biom_file_wpath<-paste(otu.dir,"/",biom_file,sep="")
+otu.no.singletons.file.wpath
 
 #Make OTU network command--RUNS
 otu_network.command<-paste(qpy, py_join,"make_otu_network.py", " -m ", map_file_wpath, " -i ",
-                           biom_file_wpath, " -o ", otu.dir,sep="")
+                           otu.no.singletons.file.wpath, " -o ", otu.dir,sep="")
 for(command in otu_network.command){
   system(command)
 }
@@ -15,7 +14,7 @@ for(command in otu_network.command){
 
 #summarize taxonomy command--RUNS
 taxa.command<-paste(qpy, py_join, "summarize_taxa.py", " -i ",
-                    biom_file_wpath, " -o ",taxa_summary.dir,sep="" )
+                    otu.no.singletons.file.wpath, " -o ",taxa_summary.dir,sep="")
 for(command in taxa.command){
   system(command)
 }
@@ -36,8 +35,6 @@ taxa_plots.command<-paste(qpy, py_join,"plot_taxa_summary.py", " -i ",taxa_otu_f
 for(command in taxa_plots.command){
   system(command)
 }
-
-# K.	Alpha analysis using QIIME
-# L.	Beta analysis using QIIME
-# M.	NMDS analysis using R
-# N.	Heatmap generation using R
+##HTML files to view summarized taxa plots
+area.charts.wpath <- paste(taxa_summary_plots.dir,"area_charts.html",sep="")
+bar.charts.wpath <- paste(taxa_summary_plots.dir,"bar_charts.html",sep="")

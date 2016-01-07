@@ -2,12 +2,10 @@
 #Files with dimension
 no_chimera_files <- list.files(rmchimera.dir)
 no_chimera_files_wpath<-paste(rmchimera.dir,no_chimera_files,sep="")
-subsamp_files<-list.files(subsamp.dir,pattern=".fasta")
-subsamp_files_wpath<-paste(subsamp.dir,subsamp_files,sep="")
 unique_files_wpath <-paste(subsamp_files_seqs.dir,list.files(subsamp_files_seqs.dir),sep="") 
 
 #Delete existing subsampled files and unique subsampled files before running subsampling scripts
-unlink(subsamp_files_wpath,recursive=FALSE,force=FALSE)
+#unlink(subsamp_files_wpath,recursive=FALSE,force=FALSE)
 unlink(unique_files_wpath,recursive=FALSE,force=FALSE)
 
 i=1
@@ -25,22 +23,22 @@ for (i in 1:n){
   seq_count[[i]]<-length(file_list[[i]]) 
 }  
 seq_count
-
-no_chimera_wpath_min_seq <- no_chimera_files_wpath[which(seq_count>5000)]
+min(seq_count)
+no_chimera_wpath_min_seq <- no_chimera_files_wpath[which(seq_count>7823)]
 
 #Copy Samples with some threshold of sequence counts...maybe median...to subsample?
 
 #min_seq<-min(seq_count)
 
-m <- 5000  #hard coded to have m at 5000 sequence counts
+m <- 7823  #hard coded to have m at 5000 sequence counts
 #no chimera seq min sample ids
 nfiles.3 <- length(no_chimera_wpath_min_seq)
-sample.id.4 <- NA
-for(i in 1:nfiles.3){
-  sample.id.4[i] <- substring(no_chimera_wpath_min_seq[i],61,63)
-}
-sample.id.4
-file_names<-sample.id.4
+#sample.id.4 <- NA
+#for(i in 1:nfiles.3){
+  #sample.id.4[i] <- substring(no_chimera_wpath_min_seq[i],61,63)
+#}
+sample.id.2
+file_names<-sample.id.2
 
 file_list <- list()
 i=1
@@ -67,6 +65,11 @@ count_seqs.command <- paste(qpy,py_join,"count_seqs.py"," -i ", '"',subsamp.dir,
 for(command in count_seqs.command){
   system(command)
 }
+checked.sequence.counts <- paste(subsamp.dir,"sub_seq_counts.txt",sep="")
+
+#Subsampled files with dimension
+subsamp_files<-list.files(subsamp.dir,pattern=".fasta")
+subsamp_files_wpath<-paste(subsamp.dir,subsamp_files,sep="")
 
 
 seqnames <-as.character(seq(1,m,1))
@@ -85,5 +88,5 @@ for (p in 1:z){
                                          current_file_name,"_seqs_uq.fasta", sep=""))
 }
 #NOTE:  there is nothing in the "out" variable but the files are written to the subsamp_files_seqs.dir
-
+sub.seqs.wpath <- paste(subsamp_files_seqs.dir,list.files(subsamp_files_seqs.dir),sep="")
 

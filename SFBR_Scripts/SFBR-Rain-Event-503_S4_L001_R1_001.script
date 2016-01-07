@@ -1,3 +1,0 @@
-#!/bin/bash
-source /macqiime/configs/bash_profile.txt
-join_paired_ends.py -f /Users/KenBradshaw/git/pipeline/SFBR_Data_filtered/filtered_SFBR-Rain-Event-503_S4_L001_R1_001.fastq -r /Users/KenBradshaw/git/pipeline/SFBR_Data_filtered/filtered_SFBR-Rain-Event-503_S4_L001_R2_001.fastq -o /Users/KenBradshaw/git/pipeline/SFBR_Data_paired/paired_SFBR-Rain-Event-503_S4_L001_R1_001.fastq

@@ -18,5 +18,6 @@ seqfilter.command <- paste("java -jar ",seq_filter.dir, "SeqFilters.jar", " --fo
 for(command in seqfilter.command){
   system(command)
 }
-
+fasta.files
+filtered.dir.wpath
 

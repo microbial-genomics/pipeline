@@ -9,7 +9,7 @@ content = input_file.readlines() # Read input file one line at a time
 
 new_file = open(file_name[:-6] + '_Modified' + file_name[-6:], 'w') # Create a new file for writing
 
-content2 = file_name[58:-6]
+content2 = file_name[57:-6]
 
 i = 0
 

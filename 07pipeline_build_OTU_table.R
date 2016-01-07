@@ -5,8 +5,6 @@
 #Files with dimension
 subsamp_file_seqs<-list.files(subsamp_files_seqs.dir,pattern="uq.fasta")
 subsamp_file_seqs_wpath<-paste(subsamp_files_seqs.dir,subsamp_file_seqs,sep="")
-seqs_in_file<-list.files(seqs_in.dir)
-seqs_in_file_wpath<-paste(seqs_in.dir,seqs_in_file,sep="")
 pick_otu.script<-paste(pipeline.dir,"pick_otu.script",sep="")
 #otu_rm.script<-paste(pipeline.dir,"otu_rm.script",sep="")
 
@@ -20,6 +18,10 @@ unlink(otus.rm.wpath,recursive=TRUE,force=FALSE)
 seqs_combined<-readDNAStringSet(subsamp_file_seqs_wpath,"fasta")
 out <-writeFasta(seqs_combined,paste(seqs_in.dir,"SFBR_all_seqs.fasta",sep=""))
 
+#input sequences file with path
+seqs_in_file<-list.files(seqs_in.dir)
+seqs_in_file_wpath<-paste(seqs_in.dir,seqs_in_file,sep="")
+
 #file command to run pick_de_novo_otus.py
 otus.command <- paste(qpy, py_join,"pick_de_novo_otus.py", " -i ",seqs_in_file_wpath," -o ", otu.dir," -f ",sep="")
 write("#!/bin/bash",file=pick_otu.script,append=FALSE)
@@ -31,21 +33,14 @@ system(chmod)
 system(pick_otu.script)
 
 #Remove singletons from OTU table
-#otu_w_singletons <- paste(otu.dir,"/", "otu_table.biom",sep="")
-#otu_singletons_rm <- paste(otu.dir, "/", "otu_table_no_singletons.biom",sep="")
+otu_w_singletons <- paste(otu.dir,"/", "otu_table.biom",sep="")
+otu_singletons_rm <- paste(otu.dir, "/", "otu_table_no_singletons.biom",sep="")
 
 #file command to remove singletons from otu table
-#otus.rm.singleton.commmand <- paste(qpy,py_join,"filter_otus_from_otu_table.py", " -i ", otu_w_singletons, " -o ",
-#                                    otu_singletons_rm, " -n 2")
-#for(command in otus.rm.singleton.commmand){
-#  system(command)
-#}
-
-#write("#!/bin/bash",file=otu_rm.script,append=FALSE)
-#write("source /macqiime/configs/bash_profile.txt",file=otu_rm.script,append=TRUE)
-#write(otus.rm.singleton.commmand, file=otu_rm.script,append=TRUE)
-#print(otus.rm.singleton.commmand)
-#chmod <- "chmod 755 otu_rm.script"
-#system(chmod)
-#system(otu_rm.script)
+otus.rm.singleton.commmand <- paste(qpy,py_join,"filter_otus_from_otu_table.py", " -i ", otu_w_singletons, " -o ",
+                                    otu_singletons_rm, " -n 10",sep="")
+for(command in otus.rm.singleton.commmand){
+  system(command)
+}
+otu.no.singletons.file.wpath <- paste(otu.dir,"/","otu_table_no_singletons.biom",sep="")
 
