@@ -62,6 +62,7 @@ sickle.command <- paste(sickle.dir,"sickle"," pe -f ", R1.input.wpath, " -r ", R
 for(command in sickle.command){
   system(command)
 }
+
 ## @knitr sickle_filtered_files
 fastq.files.filtered.wpath #Filtered Sickle Files
 

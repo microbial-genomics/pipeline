@@ -1,6 +1,6 @@
 #Make OTU network with mapping file
 #Files with dimension
-map_file<-list.files(map.dir,pattern="manure_mapping.txt")
+map_file<-list.files(map.dir,pattern="SFBR_RE_16S_mapping_file.txt")
 map_file_wpath<-paste(map.dir,map_file,sep="")
 otu.no.singletons.file.wpath
 

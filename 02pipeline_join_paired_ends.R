@@ -47,7 +47,7 @@ for(i in seq(1,nfiles,2)){
 #sample.id
 #sample.id.2 <- na.exclude(sample.id)
 #sample.id.2
-sample.id.2<-read.csv("manure_sample_id.csv",as.is=TRUE)
+sample.id.2<-read.csv("sfbr.ids.csv",as.is=TRUE)
 sample.id.2 <- unlist(sample.id.2)
 
 
@@ -73,10 +73,11 @@ unlink(fasta.files,recursive=FALSE,force=FALSE)
 
 fastq.to.fasta.command <- paste(py_join,"convert_fastaqual_fastq.py -c fastq_to_fastaqual -f ", joined_files_copied,
                                                  " -o ", fastq.convert.fasta.dir, sep="")
-
+ptm <- proc.time()
 for(command in fastq.to.fasta.command){
   system(command)
 }
+proc.time() - ptm
 fasta.fasta_qual.files.wpath <- paste(fastq.convert.fasta.dir,list.files(fastq.convert.fasta.dir),sep="")
 fasta.fasta_qual.files.wpath
 

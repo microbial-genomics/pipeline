@@ -24,13 +24,13 @@ for (i in 1:n){
 }  
 seq_count
 min(seq_count)
-no_chimera_wpath_min_seq <- no_chimera_files_wpath[which(seq_count>7823)]
+no_chimera_wpath_min_seq <- no_chimera_files_wpath[which(seq_count>3000)]
 
 #Copy Samples with some threshold of sequence counts...maybe median...to subsample?
 
 #min_seq<-min(seq_count)
 
-m <- 7823  #hard coded to have m at 5000 sequence counts
+m <- 3000  #hard coded to have m at 5000 sequence counts
 #no chimera seq min sample ids
 nfiles.3 <- length(no_chimera_wpath_min_seq)
 #sample.id.4 <- NA
