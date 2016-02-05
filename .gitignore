@@ -4,6 +4,9 @@
 00pipeline_external_setup.R
 Pipeline_Rmd_Scripts/*
 01pipeline_filter_low_quality_reads.R
+10pipeline_Seq_Counts_Hist.R
+kelvin_manure_names.csv
+manure_sample_id.csv
 
 
 
