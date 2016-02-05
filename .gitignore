@@ -1,18 +1,4 @@
-usearch8.0.1517_i86osx32
 .Rhistory
 .DS_Store
-otus/*
-SFBR_Data_paired/
-SFBR_Data_filtered/
-SFBR_Scripts/
-SFBR_SeqFiltered/
-SFBR_joined/
-SFBR_modified_headspace/
-SFBR_no_chimeras/
-SFBR_no_chimeras_subsampled/
-SFBR_notag/
-SFBR_paired_fastq_to_fasta/
-SFBR_seqs_in_otu/
-SFBR_Data/
 *.RData
 

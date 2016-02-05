@@ -1,10 +1,8 @@
 # E.  Remove Chimera reads using usearch from http://www.drive5.com/usearch/ 
-
+ptm <- proc.time()
 #Files with dimension
-list.files(SFBR_notag.write.dir)
+list.files(notag.write.dir)
 list.files(modified.write.dir)
-#sample ids from 04pipeline_remove_headspace.R
-sample.id.2 
 rmchimerafiles <- paste("rm_chimera_",sample.id.2,".fasta",sep = "")
 rmchimerawithpath <- paste(rmchimera.dir,rmchimerafiles,sep = "")
 
@@ -14,17 +12,16 @@ unlink(modified.notag.rm,recursive=FALSE,force=FALSE)
 rmchimera.dir.rm <- paste(rmchimera.dir,list.files(rmchimera.dir),sep="")
 unlink(rmchimera.dir.rm,recursive=FALSE,force=FALSE)
 
-
-#copy Modified Headspace files from the SFBR_notag directory to the SFBR_modified_headspace directory
+#copy Modified Headspace files from the notag directory to the modified_headspace directory
 modified_files <- paste("NoTag_trimmed_",sample.id.2,"_Modified.fasta",sep = "")
-modified_files_copied <- paste(SFBR_notag.write.dir,"/",modified_files, sep = "")
+modified_files_copied <- paste(notag.write.dir,"/",modified_files, sep = "")
 file.copy(modified_files_copied,modified.write.dir)
 
 #file command
-remove_chimera.command <- paste(usearch.dir,"usearch8.0.1517_i86osx32"," --uchime_ref ", modified_files_copied, " -db ", usearch.dir, "gold.fa", " --nonchimeras ",rmchimerawithpath," -strand plus", sep = "")
+remove_chimera.command <- paste(pipeline.dir,"usearch8.0.1517_i86osx32"," --uchime_ref ", modified_files_copied, " -db ", pipeline.dir, "gold.fa", " --nonchimeras ",rmchimerawithpath," -strand plus", sep = "")
 
 for(command in remove_chimera.command){
   system(command)
 }
 rmchimerawithpath
-
+proc.time() - ptm

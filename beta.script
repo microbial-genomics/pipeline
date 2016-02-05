@@ -1,3 +1,3 @@
 #!/bin/bash
 source /macqiime/configs/bash_profile.txt
-/macqiime/bin/python /macqiime/bin/beta_diversity_through_plots.py -i /Users/KenBradshaw/git/pipeline/otus/otu_table_no_singletons.biom -m /Users/KenBradshaw/git/pipeline/SFBR_mapping_files/SFBR_RE_16S_mapping_file.txt -t /Users/KenBradshaw/git/pipeline/otus/rep_set.tre -o /Users/KenBradshaw/git/pipeline/otus/beta_dir/ -f 
+/macqiime/bin/python /macqiime/bin/beta_diversity_through_plots.py -i /Users/KenBradshaw/git/pipeline/otus/otu_table_no_singletons.biom -m /Users/KenBradshaw/git/pipeline/mapping_files/SFBR_RE_16S_mapping_file.txt -t /Users/KenBradshaw/git/pipeline/otus/rep_set.tre -o /Users/KenBradshaw/git/pipeline/otus/beta_dir/ -f 
