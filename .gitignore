@@ -1,4 +1,19 @@
 .Rhistory
 .DS_Store
 *.RData
+combined_seqs_in_otu
+data_joined
+data_paired
+join_scripts
+modified_headspace_data
+no_chimeras_data
+no_chimeras_subsampled_data
+notag_data
+otus/*
+paired_fastq_to_fasta
+quality_filtered_data
+Seq_Counts
+seqFiltered_data
+
+
 
