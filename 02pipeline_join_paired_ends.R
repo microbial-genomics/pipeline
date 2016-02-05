@@ -28,8 +28,8 @@ for(i in seq(1,nfiles,2)){
                         " -o ", fastq.files.paired.wpath[i], sep="")
   write(file.command, file=fastq.scripts.wpath[i],append=TRUE)
   print(file.command)
-  chmod1 <- "chmod 755 join_scripts/SFBR-Rain-Event-*_S*_L001_R1_001.script"
-  #chmod2 <- "chmod 755 /Volumes/oneTB/pipeline/join_scripts/*_S*_L001_R1_001.script"
+  chmod1 <- "chmod 755 data_and_script_dir/join_scripts/SFBR-Rain-Event-*_S*_L001_R1_001.script"
+  #chmod2 <- "chmod 755 /Volumes/oneTB/pipeline/data_and_script_dir/join_scripts/*_S*_L001_R1_001.script"
   system(chmod1)
   system(fastq.scripts.wpath[i])
   #change name of output

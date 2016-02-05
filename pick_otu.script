@@ -1,3 +1,3 @@
 #!/bin/bash
 source /macqiime/configs/bash_profile.txt
-/macqiime/bin/python /macqiime/bin/pick_de_novo_otus.py -i /Users/KenBradshaw/git/pipeline/combined_seqs_in_otu/all_seqs.fasta -o /Users/KenBradshaw/git/pipeline/otus -f 
+/macqiime/bin/python /macqiime/bin/pick_de_novo_otus.py -i /Users/KenBradshaw/git/pipeline/data_and_script_dir/combined_seqs_in_otu/all_seqs.fasta -o /Users/KenBradshaw/git/pipeline/data_and_script_dir/otus -f 

@@ -24,7 +24,7 @@ Sys.which("macqiime")
 #Set system and data directory dependencies to work directly on machine
 if(Sys.info()[4]=="Kens-MacBook-Air.local"|Sys.info()[4]=="kens-air"){
   pipeline.dir<-("/Users/KenBradshaw/git/pipeline/")
-  data.dir <- "/Users/KenBradshaw/git/pipeline/"
+  data.dir <- "/Users/KenBradshaw/git/pipeline/data_and_script_dir/"
   sickle.dir <- "/usr/bin/"
   qiime.dir <- "/macqiime/bin/"
   qpy <- "/macqiime/bin/python "
@@ -34,7 +34,7 @@ if(Sys.info()[4]=="Kens-MacBook-Air.local"|Sys.info()[4]=="kens-air"){
 remotedata = FALSE
 if(Sys.info()[4]=="Kens-MacBook-Air.local" & remotedata|Sys.info()[4]=="kens-air" & remotedata){
   pipeline.dir<-("/Users/KenBradshaw/git/pipeline/")
-  data.dir <- "/Volumes/oneTB/pipeline/"
+  data.dir <- "/Volumes/oneTB/pipeline/data_and_script_dir/"
   sickle.dir <- "/usr/bin/"
   qiime.dir <- "/macqiime/bin/"
   qpy <- "/macqiime/bin/python "

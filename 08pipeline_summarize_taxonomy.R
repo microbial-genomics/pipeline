@@ -36,4 +36,6 @@ for(command in taxa_plots.command){
 ##HTML files to view summarized taxa plots
 area.charts.wpath <- paste(taxa_summary_plots.dir,"area_charts.html",sep="")
 bar.charts.wpath <- paste(taxa_summary_plots.dir,"bar_charts.html",sep="")
+area.charts.wpath
+bar.charts.wpath
 proc.time() - ptm
